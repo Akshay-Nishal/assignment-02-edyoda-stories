@@ -1,0 +1,160 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Raleway,sans-serif;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 78px;
+    border-bottom: solid .5px;
+    border-color:rgb(206, 207, 209);
+    
+}
+#edlogo{
+    margin-right: 45px;
+    cursor: pointer;
+}
+header #left{
+    display: flex;
+    align-items: center;
+}
+header #right{
+    display: flex;
+    align-items: center;
+}
+#exp-cat{
+    cursor: pointer;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: .9px;
+    font-family: Raleway,sans-serif;
+}
+#headtext{
+    margin-right: 45px;
+    color: rgba(0,0,0,.6);
+    opacity: .6;
+    font-family: Raleway,sans-serif;
+}
+#headbutton{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    height: 40px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: none;
+    background: -webkit-linear-gradient(181deg,#0048ff,#0096ff);
+    
+}
+#filter-icon{
+    height: 25px;
+}
+main{
+    background-color: #f2f6ff;
+}
+#categories{
+    padding: 2% 16%;
+}
+#latest-post{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 24px;
+}
+#cat-fil{
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+#cat-fil span{
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+#all-cat{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.cat-item{
+    padding: 6px 14px;
+    width: auto;
+    color: #0084ff;
+    border-radius: 15px;
+    border: solid 1px;
+    margin: 5px;
+
+}
+.cat-item:active{
+    background-color: #0084ff;
+    color: #fff;
+    background: -webkit-linear-gradient(181deg,#0048ff,#0096ff);
+
+}
+
+
+#cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.card{
+    width: 31.3%;
+    min-height: 25em;
+    height: auto;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 1em;
+    background-color: #fff;
+    -webkit-box-shadow: 0 5px 20px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    border: 1px solid rgba(0,168,255,.3);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.card img{
+    height: 176px;
+    width: 100%;
+    /* border-radius: 5px; */
+}
+.card-text{
+    padding: 10px 24px;
+}   
+.card h3{
+    font-size: 18px;
+    font-style: normal;
+    font-stretch: expanded;
+    letter-spacing: normal;
+    text-align: left;
+    margin-bottom: 8px;
+}
+.auth{
+    font-style: italic;
+    color: #0096ff;
+    font-size: 14px;
+    font-weight: 500;
+}
+.date{
+    color: rgba(0,0,0,0.7);
+}
+.discription{
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.43;
+    color: rgba(0,0,0.0.6);
+    opacity: 0.5;
+}
+
+footer{
+    background-color: #172146;
+    padding: 80px 16%;
+}
