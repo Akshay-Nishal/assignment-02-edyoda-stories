@@ -54,9 +54,10 @@ header #right{
 }
 main{
     background-color: #f2f6ff;
+    padding: 2% 16%;
 }
 #categories{
-    padding: 2% 16%;
+    
 }
 #latest-post{
     margin-bottom: 20px;
@@ -75,7 +76,6 @@ main{
 }
 #all-cat{
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
     cursor: pointer;
@@ -103,6 +103,7 @@ main{
     flex-direction: row;
     flex-wrap: wrap;
     cursor: pointer;
+    margin-top: 20px;
 }
 .card{
     width: 31.3%;
@@ -152,6 +153,10 @@ main{
     line-height: 1.43;
     color: rgba(0,0,0.0.6);
     opacity: 0.5;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
 }
 
 footer{
